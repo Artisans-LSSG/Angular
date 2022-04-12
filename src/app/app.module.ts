@@ -15,7 +15,6 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { ChildComponent } from './child/child.component';
-import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +24,6 @@ import { CardComponent } from './card/card.component';
     DashboardComponent,
     SidenavComponent,
     ChildComponent,
-    CardComponent,
   ],
   imports: [
     BrowserModule,
