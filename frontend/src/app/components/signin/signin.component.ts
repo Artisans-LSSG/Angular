@@ -35,11 +35,14 @@ export class SigninComponent implements OnInit {
       },
       (error) => {
         this.errors = error.error;
+        alert("Un Authorized User");
       },
       () => {
         this.authState.setAuthState(true);
         this.loginForm.reset();
+
         this.router.navigate(['profile']);
+        alert("login Successfull!!");
       }
     );
   }

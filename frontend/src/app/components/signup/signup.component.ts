@@ -32,10 +32,12 @@ export class SignupComponent implements OnInit {
       },
       (error) => {
         this.errors = error.error;
+        alert("Invalid Credentials");
       },
       () => {
         this.registerForm.reset();
-        this.router.navigate(['login']);
+        alert("Registeration Sucessfully!!");
+                this.router.navigate(['login']);
       }
     );
   }

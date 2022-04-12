@@ -1,7 +1,7 @@
 <div class="container">
     <div class="auth-wrapper">
         <form class="form-signin" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-            <h3 class="h3 mb-3 font-weight-normal text-center">Register User</h3>
+            <h2 class="h3 mb-3 font-weight-normal text-center">Register User</h2>
             <!-- Errors -->
             <div *ngIf="errors?.name" class="alert alert-danger mt-3">
                 {{ errors?.name }}
@@ -32,7 +32,7 @@
                 <label>Confirm Password</label>
                 <input type="password" class="form-control" formControlName="password_confirmation" placeholder="confirm password" />
             </div>
-            <button type="submit" class="btn btn-block btn-primary">
+            <button type="submit" class="btn btn-block btn-primary" style="margin-left: 280px; margin-top: 50px;">
       Register User
     </button>
         </form>

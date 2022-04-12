@@ -1,9 +1,9 @@
 <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm fixed-top">
     <h3 class="my-0 mr-md-auto font-weight-normal">$ecure</h3>
     <nav class="my-2 my-md-0 mr-md-3">
-        <a class="p-2 text-dark" routerLink="/profile" *ngIf="isSignedIn">User Profile</a>
-        <a class="p-2 text-dark" *ngIf="!isSignedIn" routerLink="/login">Sign In</a>
-        <a class="p-2 text-dark" routerLink="/register">Sign Up</a>
+        <a class="p-2 text-dark" routerLink="/profile" *ngIf="isSignedIn">UserProfile</a>
+        <a class="p-2 text-dark" *ngIf="!isSignedIn" routerLink="/login">SignIn</a>
+        <a class="p-2 text-dark" routerLink="/register">SignUp</a>
     </nav>
     <button class="btn btn-outline-primary" (click)="signOut()" *ngIf="isSignedIn">Log out</button>
 </div>
