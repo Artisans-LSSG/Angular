@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-color: cadetblue;
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3 {
+    font-weight: bolder;
+}
+
+nav {}
+
+.d-flex {
+    color: brown;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.my-2.my-md-0 {
+    margin-left: 850px;
+}
