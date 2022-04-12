@@ -16,6 +16,8 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { ChildComponent } from './child/child.component';
 import { CardComponent } from './card/card.component';
+import {MatButtonModule} from '@angular/material/button';
+
 
 @NgModule({
   declarations: [
@@ -38,6 +40,7 @@ import { CardComponent } from './card/card.component';
     MatIconModule,
     MatDividerModule,
     MatListModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent],
