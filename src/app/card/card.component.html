@@ -4,8 +4,10 @@
     <div class="page__content-data position-absolute text-center">
   
       <div class="container preload">
-        <button mat-raised-button color="primary" (click)="cardGenerator()" style="color: blue; margin-bottom: 10%;">Primary</button>
+        <!-- <button mat-raised-button color="primary" (click)="cardGenerator()" style="color: blue; margin-bottom: 10%;">Primary</button> -->
+        <button mat-flat-button color="warn"   (click)="cardGenerator()" >Genarate</button>
         <div class="creditcard"  >
+      
           <div class="front">
             <div id="ccsingle"></div>
             <svg
@@ -232,7 +234,8 @@
                   id="svgsecurity"
                   class="st6 st7"
                 >
-                  985
+                  <!-- 985 -->
+                  {{cvv()}}
                 </text>
                 <g class="st8">
                   <text
@@ -261,7 +264,9 @@
                   id="svgnameback"
                   class="st12 st13"
                 >
-                  John yo Doe
+                  <!-- John yo Doe -->
+
+                  {{name}}
                 </text>
               </g>
             </svg>
