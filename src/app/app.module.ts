@@ -19,6 +19,7 @@ import { CardComponent } from './card/card.component';
 import {MatButtonModule} from '@angular/material/button';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import {MatButtonModule} from '@angular/material/button';
     SidenavComponent,
     ChildComponent,
     CardComponent,
+    
   ],
   imports: [
     BrowserModule,
