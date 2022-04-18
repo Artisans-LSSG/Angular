@@ -1,0 +1,17 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-maindashboard',
+  templateUrl: './maindashboard.component.html',
+  styleUrls: ['./maindashboard.component.css']
+})
+export class MaindashboardComponent {
+
+  title = 'admin-panel-layout';
+  sideBarOpen = true;
+
+  sideBarToggler() {
+    this.sideBarOpen = !this.sideBarOpen;
+  }
+
+}

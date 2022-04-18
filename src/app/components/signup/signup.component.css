@@ -1,0 +1,36 @@
+.container {
+    margin-top: 250px;
+    padding-right: 250px;
+    padding-left: 250px;
+    /* border: 2px solid white; */
+    /* opacity: 0.5; */
+}
+
+.auth-wrapper {
+    padding-right: 75px;
+    padding-left: 75px;
+    /* border: 2px solid #ffffff; */
+    align-items: center;
+    border-spacing: 50px;
+}
+
+.form-group {
+    /* background-color: blanchedalmond; */
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+input {
+    padding-left: 10px;
+    align-items: center;
+}
+
+form {
+    background-color: azure;
+    /* opacity: 0.7; */
+    border-radius: 15px 120px;
+}
+
+h2 {
+    font-weight: bolder;
+}
