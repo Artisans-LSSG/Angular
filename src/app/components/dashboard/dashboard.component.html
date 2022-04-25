@@ -1,8 +1,111 @@
-<div class="container-fluid page">
-  <div class="d-flex page__box p-3 mt-2">Parent details</div>
-  <div class="page__content shadow p-3 position-relative">
-    <div class="page__content-data position-absolute text-center">
-      Parent Content Goes Here
+<!-- <div class="container-fluid page">
+    <div class="d-flex page__box p-3 mt-2">Parent details</div>
+    <div class="page__content shadow p-3 position-relative">
+        <div class="page__content-data position-absolute ">
+
+            <form class="container border border-thick p-1 black">
+                <div class="form-group row">
+                    <label for="inputName" class="col-sm-1-12 col-form-label">Name</label>
+                    <div class="col-sm-1-12">
+                        <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Enter your Full Name">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="inputEmail" class="col-sm-1-12 col-form-label">Email</label>
+                    <div class="col-sm-1-12">
+                        <input type="email" class="form-control" name="inputEmail" id="inputName" placeholder="Enter your Email Address">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Password</label>
+                    <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password">
+                </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <label for="">Phone Number</label>
+                        <input type="" class="form-control" name="Phoneno" id="phoneno" placeholder="Enter your contact Number">
+
+                    </div>
+                    <div class="input-field col s6">
+                        <label for="">PAN </label>
+                        <input type="text" class="form-control" name="pan" id="password" placeholder="Enter your pan card Number">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Address</label>
+                    <textarea class="form-control" name="Address" id="Address" rows="3" placeholder="Enter your complete Address"></textarea>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button type="submit" class="btn btn-primary" style="margin-left: 150px; margin-top: 25px;">Submit</button>
+                    </div>
+                    <div class="col">
+                        <button type="reset" class="btn btn-primary" style=" margin-top: 25px;">Cancel</button>
+                    </div>
+                </div>
+
+            </form>
+        </div>
     </div>
-  </div>
+</div> -->
+
+<div class="container-fluid page">
+    <div class="d-flex page__box p-3 mt-2">Child</div>
+    <div class="page__content shadow p-3 position-relative">
+        <div class="page__content-data position-absolute text-center">
+            <mat-tab-group dynamicHeight>
+                <mat-tab label="Fill Details">
+                    <div class="example-large-box mat-elevation-z4">
+                        <form class="container border border-thick p-1 black">
+                            <div class="form-group row">
+                                <label for="inputName" class="col-sm-1-12 col-form-label">Name</label>
+                                <div class="col-sm-1-12">
+                                    <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Enter your Full Name">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="inputEmail" class="col-sm-1-12 col-form-label">Email</label>
+                                <div class="col-sm-1-12">
+                                    <input type="email" class="form-control" name="inputEmail" id="inputName" placeholder="Enter your Email Address">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Password</label>
+                                <input type="password" class="form-control" name="password" id="password" placeholder="Enter your password">
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <label for="">Phone Number</label>
+                                    <input type="" class="form-control" name="Phoneno" id="phoneno" placeholder="Enter your contact Number">
+
+                                </div>
+                                <div class="input-field col s6">
+                                    <label for="">PAN </label>
+                                    <input type="text" class="form-control" name="pan" id="password" placeholder="Enter your pan card Number">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="">Address</label>
+                                <textarea class="form-control" name="Address" id="Address" rows="3" placeholder="Enter your complete Address"></textarea>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary" style="margin-left: 150px; margin-top: 25px;">Submit</button>
+                                </div>
+                                <div class="col">
+                                    <button type="reset" class="btn btn-primary" style=" margin-top: 25px;">Cancel</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </mat-tab>
+                <mat-tab label="Details">
+                    <div class="example-large-box mat-elevation-z4">
+                        Parent details will be display here
+                    </div>
+                </mat-tab>
+            </mat-tab-group>
+        </div>
+    </div>
 </div>

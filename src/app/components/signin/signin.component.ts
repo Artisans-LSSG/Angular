@@ -34,6 +34,11 @@ export class SigninComponent implements OnInit {
         this.responseHandler(result);
       },
       (error) => {
+        // console.log(error.error.email);
+        // console.log(error.error.password);
+
+        // alert(error.error.email);
+        // alert(error.error.password);
         this.errors = error.error;
         alert("Un Authorized User");
       },

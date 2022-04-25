@@ -31,8 +31,20 @@ export class SignupComponent implements OnInit {
         console.log(result);
       },
       (error) => {
+        //  console.log(error.error.name);
+        //  console.log(error.error.email);
+        //  console.log(error.error.password);
+        //  console.log(error.error.password_confirmation);
+
+        //  alert(error.error.name);
+        //  alert(error.error.email);
+        //  alert(error.error.password);
+        //  alert(error.error.password_confirmation);
+        // this.errors = error.error;
+        // alert("Email has already been taken");
         this.errors = error.error;
-        alert("Email has already been taken");
+        console.log(this.errors);
+        alert(error.error);
       },
       () => {
         this.registerForm.reset();
