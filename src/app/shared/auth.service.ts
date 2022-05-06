@@ -18,7 +18,7 @@ export class AuthService {
   constructor(private http: HttpClient) {}
   // User registration
   register(user: User): Observable<any> {
-    return this.http.post<any>('http://127.0.0.1:8000/api/auth/register', user);
+    return this.http.post<any>('http://127.0.0.1:8002/api/auth/register', user);
   }
   // Login
   signin(user: User): Observable<any> {
@@ -27,5 +27,8 @@ export class AuthService {
   // Access user profile
   profileUser(): Observable<any> {
     return this.http.get('http://127.0.0.1:8000/api/auth/user-profile');
+  }
+  postchildstore(user: any): Observable<any> {
+    return this.http.post<any>(' http://127.0.0.1:8000/api/parent/child ',user);
   }
 }
